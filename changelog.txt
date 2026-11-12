@@ -1,0 +1,11 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+  Changes:
+    - New Roboport for production with the same logistic area like the extender roboport, but without the hugeh supply area.
+
+Version: 1.0.0
+  Changes:
+    - Updated for game Version 1.1 (Oh come on, first version at all....)
+
+
+---------------------------------------------------------------------------------------------------
