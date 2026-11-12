@@ -1,9 +1,15 @@
 {
-  "name": "Moar_Roboports",
-  "version": "1.0.1",
-  "title": "Special Roboports",
-  "author": "becks0815",
-  "description": "Adds speciel roboports for Base extension and bot based production ",
-  "factorio_version": "1.1",
-  "dependencies": ["base >= 1.0.0"]
+  "name": "moar-roboports-updated",
+  "version": "1.0.2",
+  "title": "Special Roboports: Updated",
+  "author": "becks0815; johnmart19 / FactorioMods (Factorio 2.1 compatibility)",
+  "description": "Factorio 2.1 compatibility port with native legacy save ownership migration. Adds speciel roboports for Base extension and bot based production ",
+  "factorio_version": "2.1",
+  "dependencies": [
+    "base >= 2.1.24",
+    "! Moar_Roboports"
+  ],
+  "migrates_from": [
+    "Moar_Roboports"
+  ]
 }

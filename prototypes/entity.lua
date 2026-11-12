@@ -41,39 +41,17 @@ roboportext.charging_offsets = {
 {-1.2, 1.8}, {-1.8, 1.2}
 }
 roboportext.base.layers =
+{
   {
-    {
-      filename = "__Moar_Roboports__/graphics/entity/roboport/roboport-ext-base.png",
-      width = 143,
-      height = 135,
-      shift = {0.5, 0.25},
-      hr_version =
-      {
-        filename = "__Moar_Roboports__/graphics/entity/roboport/hr-roboport-ext-base.png",
-        width = 228,
-        height = 277,
-        shift = util.by_pixel(2, 7.75),
-        scale = 0.5
-      }
-    },
-    {
-      filename = "__base__/graphics/entity/roboport/roboport-shadow.png",
-      width = 147,
-      height = 101,
-      draw_as_shadow = true,
-      shift = util.by_pixel(28.5, 19.25),
-      hr_version =
-      {
-        filename = "__base__/graphics/entity/roboport/hr-roboport-shadow.png",
-        width = 294,
-        height = 201,
-        draw_as_shadow = true,
-        force_hr_shadow = true,
-        shift = util.by_pixel(28.5, 19.25),
-        scale = 0.5
-      }
-    }
-  }
+    filename = "__moar-roboports-updated__/graphics/entity/roboport/hr-roboport-ext-base.png",
+    width = 228,
+    height = 277,
+    shift = util.by_pixel(2, 7.75),
+    scale = 0.5
+  },
+  -- The current vanilla shadow matches the original high-resolution footprint.
+  deepCopy(data.raw.roboport["roboport"].base.layers[2])
+}
 
 
 
@@ -110,39 +88,17 @@ roboportprod.charging_offsets = {
 
 }
 roboportprod.base.layers =
+{
   {
-    {
-      filename = "__Moar_Roboports__/graphics/entity/roboport/roboport-prod-base.png",
-      width = 143,
-      height = 135,
-      shift = {0.5, 0.25},
-      hr_version =
-      {
-        filename = "__Moar_Roboports__/graphics/entity/roboport/hr-roboport-prod-base.png",
-        width = 228,
-        height = 277,
-        shift = util.by_pixel(2, 7.75),
-        scale = 0.5
-      }
-    },
-    {
-      filename = "__base__/graphics/entity/roboport/roboport-shadow.png",
-      width = 147,
-      height = 101,
-      draw_as_shadow = true,
-      shift = util.by_pixel(28.5, 19.25),
-      hr_version =
-      {
-        filename = "__base__/graphics/entity/roboport/hr-roboport-shadow.png",
-        width = 294,
-        height = 201,
-        draw_as_shadow = true,
-        force_hr_shadow = true,
-        shift = util.by_pixel(28.5, 19.25),
-        scale = 0.5
-      }
-    }
-  }
+    filename = "__moar-roboports-updated__/graphics/entity/roboport/hr-roboport-prod-base.png",
+    width = 228,
+    height = 277,
+    shift = util.by_pixel(2, 7.75),
+    scale = 0.5
+  },
+  -- The current vanilla shadow matches the original high-resolution footprint.
+  deepCopy(data.raw.roboport["roboport"].base.layers[2])
+}
 
 
 
@@ -178,39 +134,17 @@ roboportprod.charging_offsets = {
 
 }
 roboportprod2.base.layers =
+{
   {
-    {
-      filename = "__Moar_Roboports__/graphics/entity/roboport/roboport-prod-base2.png",
-      width = 143,
-      height = 135,
-      shift = {0.5, 0.25},
-      hr_version =
-      {
-        filename = "__Moar_Roboports__/graphics/entity/roboport/hr-roboport-prod-base2.png",
-        width = 228,
-        height = 277,
-        shift = util.by_pixel(2, 7.75),
-        scale = 0.5
-      }
-    },
-    {
-      filename = "__base__/graphics/entity/roboport/roboport-shadow.png",
-      width = 147,
-      height = 101,
-      draw_as_shadow = true,
-      shift = util.by_pixel(28.5, 19.25),
-      hr_version =
-      {
-        filename = "__base__/graphics/entity/roboport/hr-roboport-shadow.png",
-        width = 294,
-        height = 201,
-        draw_as_shadow = true,
-        force_hr_shadow = true,
-        shift = util.by_pixel(28.5, 19.25),
-        scale = 0.5
-      }
-    }
-  }
+    filename = "__moar-roboports-updated__/graphics/entity/roboport/hr-roboport-prod-base2.png",
+    width = 228,
+    height = 277,
+    shift = util.by_pixel(2, 7.75),
+    scale = 0.5
+  },
+  -- The current vanilla shadow matches the original high-resolution footprint.
+  deepCopy(data.raw.roboport["roboport"].base.layers[2])
+}
 
 
 data:extend(

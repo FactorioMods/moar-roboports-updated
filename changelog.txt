@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 2026-11-12
+  Changes:
+    - Update recipe, technology, and entity prototypes for Factorio 2.1 while retaining the original roboport names and capacities. Use the included original high-resolution custom bases and current vanilla shadow instead of obsolete low-resolution and hr_version fields.
+    - Add native ownership migration from the original mod identity while preserving existing saved state.
+---------------------------------------------------------------------------------------------------
 Version: 1.0.1
   Changes:
     - New Roboport for production with the same logistic area like the extender roboport, but without the hugeh supply area.
